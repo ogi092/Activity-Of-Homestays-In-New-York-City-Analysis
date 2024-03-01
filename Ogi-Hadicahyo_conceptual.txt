@@ -1,0 +1,37 @@
+============================================================================================================================================================================================
+Milestone 3
+
+Nama  	: Ogi Hadicahyo
+Batch 	: HCK - 012
+Objective 	: File ini berisi jawaban atas pertanyaan Masalah Konseptual
+
+============================================================================================================================================================================================
+														CONCEPTUAL PROBLEM
+============================================================================================================================================================================================
+PERTANYAAN :
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+JAWAB :
+1. NoSQL adalah jenis basis data yang tidak mengikuti model relasional tradisional yang digunakan dalam relational database management system (RDBMS). Dalam NoSQL, data disimpan dalam format yang lebih fleksibel yang memungkinkan pengembang untuk menyimpan dan mengakses data dengan cara yang lebih tidak terstruktur dan skalabilitas yang lebih baik.
+
+2. Penggunaan NoSQL dan Relational Database Management System (RDBMS) dapat digunakan ketika :
+   - Gunakan RDBMS ketika Anda memiliki data yang terstruktur dengan hubungan yang kompleks antar entitas, seperti dalam kasus aplikasi perbankan atau manajemen inventaris.
+   - Gunakan NoSQL ketika Anda memiliki data yang tidak terstruktur atau semi-terstruktur, atau ketika Anda perlu skalabilitas horizontal yang tinggi untuk menangani volume data yang 
+     besar atau distribusi data yang luas, seperti dalam kasus aplikasi media sosial atau Internet of Things (IoT).
+
+3. Contoh Tools/Platform NoSQL selain ElasticSearch beserta Keunggulan Masing-Masing:
+   - MongoDB: MongoDB adalah database dokumen NoSQL yang memungkinkan penyimpanan data dalam format dokumen JSON yang fleksibel. Keunggulan MongoDB termasuk skalabilitas horizontal yang 
+     baik, kinerja tinggi, dan kemudahan pengembangan.
+   - Cassandra: Cassandra adalah database wide-column NoSQL yang dirancang untuk menangani volume data besar dengan distribusi yang luas. Keunggulan Cassandra termasuk ketahanan terhadap 
+     kegagalan, skalabilitas horizontal yang linier, dan kinerja tinggi untuk menulis dan membaca data.
+
+4. Airflow adalah platform open-source untuk orchestrating workflows data yang kompleks dan terjadwal. Dengan Airflow, pengguna dapat membuat, mengatur, dan menjalankan alur kerja yang melibatkan serangkaian tugas yang saling tergantung, dengan kemampuan untuk memantau dan mengelola eksekusi secara efisien.
+
+5. Great Expectations adalah alat open-source untuk memvalidasi dan mengelola kualitas data. Dengan Great Expectations, pengguna dapat menetapkan harapan tentang data mereka, menjalankan tes untuk memvalidasi data sesuai dengan harapan tersebut, dan menghasilkan laporan yang memberikan wawasan tentang kualitas data.
+
+6. Batch Processing adalah proses pengolahan data yang dilakukan pada kelompok data tertentu atau batch, biasanya dalam interval waktu tertentu. Dalam batch processing, data dikumpulkan, diproses, dan dihasilkan output dalam batch yang lebih besar daripada pengolahan data secara real-time. Contoh kasus penggunaan batch processing termasuk pengolahan laporan bulanan keuangan, analisis data historis, atau pengiriman email massal. Tools yang sering digunakan untuk batch processing termasuk Apache Spark, Apache Hadoop, dan Apache Flink.

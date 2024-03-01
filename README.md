@@ -1,0 +1,7 @@
+## Overview
+Implementing an end-to-end data pipeline using Apache Airflow to analyze Activity Of Homestays In New York City. Fetched data from PostgreSQL, conducted thorough cleaning, and visualized insights in Elasticsearch with Kibana.
+
+## Conclusion
+Key findings indicate that The majority of hosts in the dataset are verified, indicating a high level of trust in the Airbnb platform. Airbb visitors' preferences vary with a few names standing out among customers. Brooklyn and Manhattan have nearly the same, population size, while Queens has a smaller population. The Bronx, Queens, and Stäten Island have smaller populations. There are significant fluctuations in the number of Airbbs each year, reflecting cycles of growth and decline in the Airbb industry. 
+
+The Entire home/apt room type dominates, followed by Private room, while Shared room'and: Hotel room have a smaller proportion. There are differences in price distribution based on cancellation policy, with moderate and strict policies having lower average prices. Property prices vary significantly between top neighbourhoods, with price differences possibly influenced by attractive location or the availability-of nearby amenities. In conclusion, the Airbb industry in New York City shows significant diversity in terms of user preferences, population distribution, and property prices.
